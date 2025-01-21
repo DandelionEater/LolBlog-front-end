@@ -1,0 +1,27 @@
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+html {
+    background-color: var(--bg-color) ;
+}
+
+body {
+    background-color: var(--bg-color) ;
+}
+
+p, i {
+    color: white;
+}
+
+a {
+    color: inherit;
+}
+
+.nav-opt {
+    background-color: var(--bar-color) !important;
+}
+
+.content .main .post {
+    background-color: var(--bar-color);
+}

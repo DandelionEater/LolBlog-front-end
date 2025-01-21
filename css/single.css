@@ -1,0 +1,68 @@
+/* Single page content */
+
+.content .main.single {
+    background-color: var(--bar-color);
+    padding: 20px 50px;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+.content .main.single .post-image.single {
+    width: 100%;
+    border: 3px solid #243568;
+    padding: 3px;
+}
+
+.content .main.single .fa-regular.fa-user.single {
+    font-size: 0.8em;
+}
+
+.content .main.single .fa-regular.fa-calendar.single {
+    font-size: 0.8em;
+}
+
+.content .main.single .post-p {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #243568;
+}
+
+.content .main.single .c-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #2e4486;
+    padding: 3px;
+}
+
+.content .sidebar.top-single {
+    padding: 0px 10px;
+}
+
+.content .sidebar.bottom-single {
+    padding: 0px 10px;
+}
+
+.content .sidebar.top-single .section.search {
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+.content .sidebar.bottom-single .section.other-posts .post {
+    position: relative;
+    border-bottom: 1px solid #243568;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content .sidebar.bottom-single .section.other-posts .post img {
+    width: 100px;
+    float: left;
+    margin-right: 10px;
+}
+
+.content .sidebar.bottom-single .section.other-posts .post .btn.sidebar-read-more {
+    position: absolute;
+    font-size: 1em;
+    right: 10px;
+    bottom: 12px;
+}

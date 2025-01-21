@@ -1,0 +1,31 @@
+/* About us */
+
+.video {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-content {
+    width: 80%;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: var(--bar-color);
+    border-radius: 5px;
+}
+
+.content.about-us .about-us-main .video.about-us {
+    border: 3px solid #2e4486;
+    padding: 3px;
+}
+
+.content.about-us .about-us-main .redirect-contact-us {
+    text-decoration: underline;
+    transition: 0.5s;
+}
+
+.content.about-us .about-us-main .redirect-contact-us:hover {
+    color: #2e4486;
+    transition: 0.5s;
+}

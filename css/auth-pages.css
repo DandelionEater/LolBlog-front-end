@@ -1,0 +1,24 @@
+/* Auth pages */
+.auth-content {
+    width: 80%;
+    padding: 20px;
+    margin: 50px auto;
+    background-color: var(--bar-color);
+    border-radius: 5px;
+}
+
+.auth-content .form-title {
+    text-align: center;
+}
+
+.auth-content form div {
+    margin-bottom: 10px;
+}
+
+.auth-content form p {
+    text-align: center;
+}
+
+.auth-content form p a {
+    text-decoration: underline;
+}
