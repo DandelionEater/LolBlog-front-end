@@ -246,10 +246,18 @@ a {
     position: relative;
 }
 
+.footer-section.about {
+    border-right: 1px solid var(--bg-color);
+}
+
+.footer-section.links {
+    border-right: 1px solid var(--bg-color);
+}
+
 .footer .footer-content {
     height: 350px;
     display: flex;
-    border-bottom: 1px solid #243568;
+    border-bottom: 1px solid var(--bg-color);
 }
 
 .footer .footer-content .footer-section.about .logo-text {
