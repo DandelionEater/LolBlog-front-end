@@ -34,6 +34,8 @@
     padding: 3px;
 }
 
+/* Sidebar */
+
 .content .sidebar.top-single {
     padding: 0px 10px;
 }
@@ -55,9 +57,13 @@
 }
 
 .content .sidebar.bottom-single .section.other-posts .post img {
-    width: 100px;
+    width: 75px;
+    height: 75px;
     float: left;
-    margin-right: 10px;
+    object-fit: cover;
+    border: 3px solid var(--bg-color);
+    padding: 3px;
+    margin-right: 15px;
 }
 
 .content .sidebar.bottom-single .section.other-posts .post .btn.sidebar-read-more {
