@@ -40,6 +40,42 @@
     padding-right: 5px;
 }
 
+.post-type {
+    border-radius: 20px;
+    background-color: #681b80;
+    min-width: 100px;
+    padding-left: 15px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.guide-beginner {
+    border-radius: 20px;
+    background-color: #197716;
+    min-width: 100px;
+    padding-left: 15px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.guide-experienced {
+    border-radius: 20px;
+    background-color: #888a15;
+    min-width: 100px;
+    padding-left: 15px;
+    padding-right: 5px;
+    text-align: center;
+}
+
+.guide-advanced {
+    border-radius: 20px;
+    background-color: #771616;
+    min-width: 100px;
+    padding-left: 15px;
+    padding-right: 5px;
+    text-align: center;
+}
+
 .image {
     max-height: 20px;
     margin-top: 10px;

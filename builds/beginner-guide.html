@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginner's guide</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Overpass&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Candal&family=Lora:ital,wght@0,400..700;1,400..700&family=Overpass&display=swap" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/single.css">
+    <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/tags.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark nav-opt">
+            <div class="container-fluid">
+              <a class="navbar-brand label" href="../index.html">Builds</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-switch-inactive" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-switch active" href="../posts.html">Posts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-switch-inactive" href="../gallery.html">Gallery</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-switch-inactive dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Contacts
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../contacts/contact-us.html">Contact us</a></li>
+                                <li><a class="dropdown-item" href="../contacts/about-us.html">About us</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-switch-inactive dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Account
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="../account/login.html">Log in</a></li>
+                                <li><a class="dropdown-item" href="../account/register.html">Register</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link text-switch-inactive dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Personalization
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="nav-item slider-nav-item">
+                                    <a class="nav-link" style="color: black;">Dark mode</a>
+                                    <label id="toggle" class="toggle-switch">
+                                        <input id="theme-toggle" type="checkbox" />
+                                        <span class="slider"></span>
+                                    </label>
+                                </li>
+                                <li class="nav-item color-picker-nav-item color-picker-nav">
+                                    <a class="nav-link color-picker-text" style="color: black;">Header color</a>
+                                    <input type="color" id="color-picker" class="color-picker" value="#ff0000">
+                                </li>
+
+                                <li class="nav-item color-picker-nav-item font-size-container">
+                                    <a class="nav-link font-size-text" style="color: black;">Font size</a>
+                                    <input type="text" id="font-size" class="font-size" value="40px">
+                                </li>
+                            </ul>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Page wrapper -->
+        <div class="page-wrapper">
+
+            <!-- Content -->
+            <div class="content clearfix">
+
+                <!-- Top sidebar -->
+                <div class="sidebar top-single">
+                    <div class="section search">
+                        <h3 class="section-title">Search</h3>
+                        <div>
+                            <div class="container-fluid">
+                              <form class="d-flex input-control" role="search">
+                                <input id="search-input-styling" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                              </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- //Top sidebar -->
+
+                <!-- Main content -->
+                <div class="main single">
+                    <h1 class="post-title">Beginner Guide To League Of Legends</h1>
+                    <div class="post-content">
+                        <img src="../images/league-banner.png" alt="" class="post-image single">
+                        <i class="fa-regular fa-user single"> Username</i>
+                        &nbsp;
+                        <i class="fa-regular fa-calendar single"> Oct 30, 2024</i>
+
+                        <br><br>
+
+                        <div id="tags_list" class="tag-list-opt">
+                            <div id="tag" class="post-type">
+                                <h6>Guide</h6>
+                            </div>
+                            <div id="tag1" class="guide-beginner">
+                                <h6>Beginner</h6>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <h2>Introduction</h2>
+
+                        <p class="post-p">
+                            Before we start today's guide I'd like to suggest an amazing video on this same topic,
+                            because everybody has their own learning style and if video lessons are better for you than text type
+                            feel free to use this video. <br> <br>
+                            <iframe 
+                            width="560" 
+                            height="315" 
+                            src="https://www.youtube.com/embed/tQbo2X2Qysc?si=Ip2boo6iC_3oy6ze" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen></iframe> <br>
+                            Now that we've addressed this issue let's hop into today's guide!                            
+                        </p>                        
+
+                        <h2>What is League of Legends?</h2>
+
+                        <p class="post-p">
+                            League of Legends has been around for a long time—since 2009, to be exact.
+                            For someone trying to jump into the game, that kind of history can be intimidating.
+                            However, knowing a bit about how League of Legends works can make actually playing it much easier. It's a MOBA, a multiplayer online battle arena, in which two teams of players battle it out for control of the map.
+                            It combines teamwork, strategy, and abilities in a fast-paced battle for supremacy. 
+                            <br> <br>
+                            To start with, you should familiarize yourself with the main map, Summoner's Rift.
+                            <br> <br>
+                            <img src="../images/league-map.jpg" alt="" class="post-image single">
+                            <br>
+                        </p>
+
+                        <h2>A breakdown of Summoner's Rift</h2>
+
+                        <p class="post-p">
+                            Summoner's Rift has three different kinds of areas: the Nexus, lanes, and the jungle. 
+                            The Nexus is the area that you spawn in when the game starts.
+                            This is also the area that you're trying to reach on the enemy's side of the map.
+                            The name comes from the rotating sphere that's surrounded by two towers, and the goal of the game is to destroy the enemy's Nexus.
+                            Sometimes, this is called base, shop, or home. 
+                            <br> <br>
+                            The lanes in League of Legends are the three paths that are clearly marked on the map, and they're called top, middle (also called mid), and bottom (also known as bot).
+                            Each team has five players, and most of the players spend their time in these lanes.
+                            Top-lane and mid-lane each have one player from both teams, while the bottom lane has two players from each team.
+                            Each lane has two towers in it that will deal damage to the opposing team if they're under them.
+                            <br> <br>
+                            The fifth player on each team spends their time primarily in the last area of the map, the jungle.
+                            This is all of the areas on the map that's not a lane or a Nexus area. This is where several objectives of the game are also located.
+                            There are creatures in the jungle that can be eliminated for buffs and gold, but it's tricky to traverse.
+                            <br> <br>
+                            A game of League of Legends is won through objectives.
+                            Objectives are anything that give you an advantage that doesn't include kills.
+                            The jungle has three main objectives in it: Dragon, Baron Nashor, and Rift Herald.
+                            All of these are found in the jungle, and they generally take teamwork to accomplish.
+                        </p>
+
+                        <h2>Lanes, Roles and Champions</h2>
+
+                        <p class="post-p">
+                            Each player has a specific role, and these roles correspond to the lane that they're in.
+                            While there are some exceptions, the best way to learn the game is by playing the roles how they're meant to be played.
+                            <br> <br>
+                            The top lane is meant for tanks and bruiser characters.
+                            These characters focus on getting up close and personal with enemies, absorbing damage, and acting as a shield for the rest of their team.
+                            A good beginner's choice for the top lane is Garen he's relatively good, cheap to buy, and easy to learn.
+                            <br> <br>
+                            The middle lane is meant for mages or assassins.
+                            These two kinds of characters both focus on dealing a lot of damage at one time, and they generally focus on enemies who don't have a lot of health—in other words, squishy enemies.
+                            However, they don't have much health themselves, so they have to play safer than top lane characters.
+                            Good starting characters for this role include Ahri, Zed, and Malzahar.
+                            <br> <br>
+                            The bottom lane has two roles: ADC (Attack Damage Carry) and support.
+                            The ADC is a glass cannon whose main goal is to whittle enemy health bars down from afar.
+                            These characters have very little health but deal out massive amounts of damage through their basic attacks.
+                            Good beginner characters for the ADC role are Ashe and Jinx.
+                            <br> <br>
+                            The goal of the support role is to help their ADCs, and eventually, their team.
+                            They can stun enemies, boost teammates, or even heal their teammates.
+                            Some good starting support characters are Soraka, Sona, and Yuumi.
+                            <br> <br>
+                            The last role is the jungler.
+                            The jungler spends most of their time killing critters in the jungle, but a good jungler keeps an eye on the other lanes and jumps in to help when needed.
+                            Whether an enemy is getting too strong and needs to be taken down, or maybe an enemy has really low health after a fight, the jungler can jump in and win victories across every lane.
+                            <br> <br>
+                            The jungler is also responsible for pinging and planning for objectives.
+                            While everyone can help do this, a good jungler will have things set up to take Dragon or even Rift Herald when they're up.
+                            The jungle can be a tough lane to start the game in, but good beginner junglers are Master Yi and Warwick.
+                        </p>
+
+                        <h2>How To Win</h2>
+
+                        <p class="post-p">
+                            Winning a game of League of Legends means destroying the enemy Nexus.
+                            The swirling vortex in the enemy's base area has two towers that stand directly in front of it, three inhibitors that protect it, and three towers that protect those inhibitors.
+                            Essentially, each lane leads to each team's base, where a tower and inhibitor meet the lane's end.
+                            <br> <br>
+                            In order to take out the Nexus, at least one inhibitor has to be destroyed.
+                            And in order to destroy the inhibitor or the Nexus, players have to destroy the towers protecting the respective objective.
+                            Additionally, before reaching the opponent's base, there are two towers in each lane to take out.
+                            <br> <br>
+                            While kills don't directly translate to wins, killing opponents puts them behind and will ultimately keep them weaker than you.
+                            This doesn't guarantee anything, and even weaker enemies can outsmart you and still come out on top.
+                            However, an advantage in kills does make winning much easier.
+                        </p>
+
+                        <h2>Phases of League of Legends</h2>
+
+                        <p class="post-p">
+                            League of Legends doesn't have any hard-set phases to play with, but there are natural intervals that combat and the pace of the game will almost always fall into.
+                            For example, in the beginning of the game (which is often called the “laning phase”) players will be in their lanes trying to get as much gold and experience as possible.
+                            Both of these resources are obtained by killing enemy minions and players.
+                            <br> <br>
+                            During this phase of the game, most players will stay in their lane.
+                            Ultimately, the goal is to stay ahead of your laning opponent and get the first laning tower.
+                            Occasionally, your junglers will help, but your lane is ultimately your stomping grounds.
+                            <br> <br>
+                            After the laning phase, the game looks a little different.
+                            If your tower has been taken (or you take an enemy tower), it's time to start looking at your teammates.
+                            Should you help them by showing up unexpectedly to turn a one-versus-one fight into a two-versus-one fight? Or should you work with your jungler to take objectives?
+                            <br> <br>
+                            The answers to these questions and the next steps you take depend on the specific situation.
+                            However, the main thing is to help the team ahead while not letting your lane get taken over.
+                            Helping your team is great, but it's not a good idea to go rogue and let the enemy laner take both towers and full control of your lane in your absence.
+                            <br> <br>
+                            After this, the most common thing to do is put pressure on the map as a team.
+                            Each player has a special role, and these roles work best when everyone's fighting together.
+                            Communicating with pings or the in-game chat system is essential during this phase.
+                        </p>
+
+                        <h2>Items and Gold</h2>
+
+                        <p class="post-p">
+                            An important part of League of Legends is items and gold management.
+                            Essentially, everything you do in the game earns you gold, from killing enemies to the simple passage of time.
+                            Gold is especially important during the laning phase—killing minions gives you gold, and this is the main way you get the currency.
+                            This gold is used to buy items back at the base where you spawn.
+                            <br> <br>
+                            While the game does a good job of recommending items based on the Champion you choose, it's good to know what each item does.
+                            There are a lot of different stats in LoL, and buying items in the right order to boost the stats you want will set you up for success.
+                            <br> <br>
+                            There's an item for pretty much everything.
+                            For example, if the enemy mage is running you down, and you're playing an ADC,
+                            then you can buy an item to boost your AP (Ability Power, or magic damage) resistance—in this case,
+                            the item would be Quicksilver Sash, which gives magic resistance.
+                            If you were playing a tanky Champion in the same situation, then you'd buy a different item, Spirit Visage, which provides that magic resistance along with traditional tank stats. 
+                            <br> <br>
+                            Item optimization is key when it comes to keeping up with your opponents.
+                            Luckily, there are keys for the items in the shop. When the game recommends items, it tells you why.
+                            For example, some will indicate that they're generally a good option, while others will say that they're only good against a specific Champion.
+                            If an enemy is being particularly annoying, you can easily choose an item that's specifically good against them.
+                        </p>
+
+                        <h2>Ending statements</h2>
+
+                        <p class="post-p">
+                            That will be all for our beginner's guide to League of Legends!
+                            <br>
+                            I really hope you've enjoyed it and that it helped you at least a little bit to understand this game's core.
+                            <br> <br>
+                            See you on the rift summoner!
+                        </p>
+
+                    </div>
+                </div>
+                <!-- // Main content -->
+
+                <!-- Bottom sidebar -->
+                <div class="sidebar bottom-single">
+                    <div class="section quiz">
+                        <h3 class="section-title">Quiz</h3>
+                        <h6>When was League of Legends released?</h6>
+                        
+                        <div class="form-check text-light">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label label" for="flexRadioDefault1">
+                            2002
+                            </label>
+                        </div>
+                        <div class="form-check text-light">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                            <label class="form-check-label label" for="flexRadioDefault2">
+                            2015
+                            </label>
+                        </div>
+                        <div class="form-check text-light">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+                            <label class="form-check-label label" for="flexRadioDefault3">
+                            2009
+                            </label>
+                        </div>
+                        <div class="form-check text-light">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
+                            <label class="form-check-label label" for="flexRadioDefault4">
+                            2024
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
+                    <div class="section other-posts">
+                        <h3 class="section-title">Other posts</h3>
+
+                        <div class="post clearfix">
+                            <img src="../images/Ahri-resize.jpg" class="" alt="">
+                            <h4>Ahri - The Nine Tailed Fox</h4>
+                            <p class="post-text">Ever wanted to get to know Ahri better? well then look no further...</p>
+                            <br><br>
+                            <a href="../builds/ahri.html" class="btn btn-primary btn-sm sidebar-read-more">Read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- // Sidebar -->
+
+            <!-- // Content -->
+        </div>
+    </div>
+    <!-- //Page wrapper -->
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h1 class="logo-text">Builds</h1>
+                <br>
+                <p>
+                    This website helps you with League Of Legends champions build, lore and playstyles.
+                    The website is being constantly updated so You are always up to speed
+                    with the latest champion info.
+                </p>
+                <div class="contact">
+                    <span class = label><i class="fa-solid fa-phone"></i> &nbsp; 123-456-789</span>
+                    <span class = label><i class="fa-solid fa-envelope"></i> &nbsp; info@lolbuilds.com</span>
+                </div>
+                <div class="socials">
+                    <a href="https://www.youtube.com/@dandelionedits"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.twitch.tv/saiyandeffa"><i class="fa-brands fa-twitch"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-section links">
+                <h2>Quick links</h2>
+                <br>
+                <ul>
+                    <a href="../index.html"><li>Home</li></a>
+                    <a href="posts.html"><li>Posts</li></a>
+                    <a href="../gallery.html"><li>Gallery</li></a>
+                    <a href="../contacts/about-us.html"><li>About us</li></a>
+                </ul>
+            </div>
+
+            <div class="footer-section contact-form">
+                <h2>Contact us</h2>
+                <br>
+                <form action="../index.html" method="post">
+                    <div class="mb-3">
+                        <input type="email" class="form-control textarea" id="exampleFormControlInput1" placeholder="Your e-mail address here...">
+                    </div>
+
+                    <div class="mb-3">
+                        <textarea class="form-control textarea" id="exampleFormControlTextarea1" rows="3" placeholder="Your message here..."></textarea>
+                    </div>
+
+                    <div><button type="submit" name="contact-us-btn" class="contact-us btn btn-big">Send</button></div>
+                </form>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom label">
+            &copy; dandeliondesigns.com | Designed by Dandelion
+        </div>
+    </div>
+    <!-- //Footer -->
+
+    <!-- JQuerry -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Custom script -->
+    <script src="../js/scripts.js"></script>
+
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!-- Personal scripts -->
+    <script src="../js/color-mode-switch.js"></script>
+    <script src="../js/heading-changes.js"></script>
+</body>
+</html>
