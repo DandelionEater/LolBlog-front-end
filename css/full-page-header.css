@@ -1,0 +1,14 @@
+#full-page-header {
+    background-image: url("../images/fullpageheader.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+#fph-text {
+    text-align: center;
+    align-content: center;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
