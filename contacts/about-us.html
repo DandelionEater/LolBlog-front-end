@@ -19,10 +19,11 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/about-us.css">
     <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/fix-navbar-overlap.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark nav-opt">
+        <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark nav-opt fixed-top">
             <div class="container-fluid">
               <a class="navbar-brand label" href="../index.html">Builds</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -87,41 +88,44 @@
         </nav>
     </header>
     <!-- Page wrapper -->
-        <div class="page-wrapper">
-            <!-- Content -->
-            <div class="content about-us clearfix about-content">
-                
-                
-                <div class="about-us-main">
-                    <h1 class="about-us-text">About us</h1>
+    <div class="page-wrapper">
+        <!-- Content -->
+        <div class="content about-us clearfix about-content">
+                    
+            <div class="about-us-main">
+                <h1 class="about-us-text">About us</h1>
 
-                    <br>
+                <br>
 
-                    <video autoplay class="video about-us" muted loop playsinline>
-                        <source data-testid="source-video/webm" 
-                        src="../video/about-us-lol-video.webm" 
-                        type="video/webm">
-                    </video>
+                <video autoplay class="video about-us" muted loop playsinline>
+                    <source data-testid="source-video/webm" 
+                    src="../video/about-us-lol-video.webm" 
+                    type="video/webm">
+                </video>
 
-                    <br>
+                <br>
 
-                    <p>
-                        Website „Builds“ has been created in order to help fellow League Of Legends gamers.
-                        Filled with exciting champion guides, strategies, lore and detailed champion explanations.<br><br>
-                        The idea was born after realizing the frustrating reality of researching your favorite champions.<br><br>
-                        Let me explain:<br>Since every character in Runeterra's universe has a deep lore, user is forced to visit the lore page on League's website.
-                        In order to get to know champion's abilities, user has to visit another league's page. 
-                        Champion builds are on a few different pages (also not all builds are good and/or up to date).
-                        Strategies are put mainly on youtube so researching there is not an easy task too.
-                        So in order to make it simple and accessible we have created a website that has it all in one place.<br><br>
-                        Our website is still in early development so if you ever find any bugs or have any suggestions for the upcoming guides,
-                        please <a href="../contacts/contact-us.html" class="redirect-contact-us">contact us</a>!
-                        We will happily read through your siggestions and concerns.<br><br>
-                        See you on the Summoner's rift!
-                    </p>
-                </div>
+                <p>
+                    Website „Builds“ has been created in order to help fellow League Of Legends gamers.
+                    Filled with exciting champion guides, strategies, lore and detailed champion explanations.<br><br>
+                    The idea was born after realizing the frustrating reality of researching your favorite champions.<br><br>
+                    Let me explain:<br>Since every character in Runeterra's universe has a deep lore, user is forced to visit the lore page on League's website.
+                    In order to get to know champion's abilities, user has to visit another league's page. 
+                    Champion builds are on a few different pages (also not all builds are good and/or up to date).
+                    Strategies are put mainly on youtube so researching there is not an easy task too.
+                    So in order to make it simple and accessible we have created a website that has it all in one place.<br><br>
+                    Our website is still in early development so if you ever find any bugs or have any suggestions for the upcoming guides,
+                    please <a href="../contacts/contact-us.html" class="redirect-contact-us">contact us</a>!
+                    We will happily read through your siggestions and concerns.<br><br>
+                    See you on the Summoner's rift!
+                </p>
+            </div>
         </div>
         <!-- // Content -->
+        <!-- Scroll to top -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <i id="scroll-arrow" class="fa fa-arrow-up" aria-hidden="true"></i>
+        </button>
     </div>
     <!-- //Page wrapper -->
 
@@ -190,5 +194,5 @@
     <!-- Personal scripts -->
     <script src="../js/color-mode-switch.js"></script>
     <script src="../js/heading-changes.js"></script>
-</body>
+    <script src="../js/scroll-to-top.js"></script>
 </html>

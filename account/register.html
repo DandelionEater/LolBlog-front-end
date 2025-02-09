@@ -19,10 +19,11 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/auth-pages.css">
     <link rel="stylesheet" href="../css/media.css">
+    <link rel="stylesheet" href="../css/fix-navbar-overlap.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark nav-opt">
+        <nav id="navbar" class="navbar navbar-expand-lg bg-body-tertiary navbar-dark bg-dark nav-opt fixed-top">
             <div class="container-fluid">
               <a class="navbar-brand label" href="../index.html">Builds</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -117,6 +118,10 @@
                 <button class="btn" type="submit">Sign Up</button>
             </form>
         </div>
+        <!-- Scroll to top -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">
+            <i id="scroll-arrow" class="fa fa-arrow-up" aria-hidden="true"></i>
+        </button>
         <!-- //auth -->
     </div>
     <!-- Footer -->
@@ -181,5 +186,6 @@
     <script src="../js/register-validator.js"></script>
     <script src="../js/color-mode-switch.js"></script>
     <script src="../js/heading-changes.js"></script>
+    <script src="../js/scroll-to-top.js"></script>
 </body>
 </html>
