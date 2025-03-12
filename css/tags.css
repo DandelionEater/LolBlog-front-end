@@ -80,3 +80,59 @@
     max-height: 20px;
     margin-top: 10px;
 }
+
+/* Share opt */
+#share {
+    display: flex;
+    gap: 5px;
+}
+
+.share_img {
+    max-height: 20px;
+    margin-top: 8px;
+    font-size: 1.2em;
+}
+
+.share_button {
+    border-radius: 20px;
+    background-color: #650079;
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Donate opt */
+#donate {
+    display: flex;
+    gap: 5px;
+}
+
+.donate_img {
+    max-height: 20px;
+    margin-top: 8px;
+    font-size: 1.2em;
+}
+
+.donate_button {
+    border-radius: 20px;
+    background-color: #aa008e;
+    min-width: 100px;
+    padding-left: 10px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Path opt */
+#path_text {
+    color: #696969;
+}
+
+.path_link {
+    color: #9b9b9b;
+    text-decoration: underline;
+}
