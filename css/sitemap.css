@@ -1,0 +1,15 @@
+.main .sitemap-container {
+    background-color: var(--bar-color);
+    padding: 20px;
+    border-radius: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.sitemap-links {
+    text-decoration: none;
+}
+
+.sitemap-links :hover {
+    text-decoration: underline;
+}

@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" 
-    content="Main page of the website. Contains all navigation and majority of the content.">
+    content="Page that contains all posts in a list.">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <title>LOLblog</title>
 
@@ -21,7 +21,8 @@
 
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
-    <link rel="stylesheet" href="css/full-page-header.css">
+    <link rel="stylesheet" href="css/fix-navbar-overlap.css">
+    <link rel="stylesheet" href="css/sitemap.css">
 </head>
 <body>
     <header>
@@ -34,10 +35,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active text-switch" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link text-switch-inactive" aria-current="page" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-switch-inactive" href="posts.html">Posts</a>
+                            <a class="nav-link text-switch inactive" href="posts.html">Posts</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-switch-inactive" href="gallery.html">Gallery</a>
@@ -91,13 +92,6 @@
     </header>
     <!-- Page wrapper -->
     <div class="page-wrapper">
-        <div id="full-page-header" class="full-page-header">
-            <div id="fph-text">
-                <h3 id="fph-top-text">League Builds</h3>
-                <p id="fph-bottom-text">Your number one place to get your champions builds and strategies. We sincerely hope our work satisfies and helps you!</p>
-            </div>
-            
-        </div>
         <!-- Content -->
         <div class="content clearfix">
             <!-- Sidebar -->
@@ -147,98 +141,31 @@
                         </div>
                     </div>
                 </div>
-
-                <div class="section quiz">
-                    <h3 class="section-title">Quiz</h3>
-                    <h6>When was League of Legends released?</h6>
-                    
-                    <div class="form-check text-light">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                        <label class="form-check-label label" for="flexRadioDefault1">
-                        2002
-                        </label>
-                    </div>
-                    <div class="form-check text-light">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
-                        <label class="form-check-label label" for="flexRadioDefault2">
-                        2015
-                        </label>
-                    </div>
-                    <div class="form-check text-light">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
-                        <label class="form-check-label label" for="flexRadioDefault3">
-                        2009
-                        </label>
-                    </div>
-                    <div class="form-check text-light">
-                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault4">
-                        <label class="form-check-label label" for="flexRadioDefault4">
-                        2024
-                        </label>
-                    </div>
-                    
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-
-                <div class="section guess-a-number">
-                    <h3 class="section-title">Guess the number</h3>
-                    <h6>Type in the maximum number of the guessing game.</h6>
-                    <div class="input-control">
-                        <input type="number" id="max-number-input" class="max-number-input" value="1000"></input>
-                    </div>
-                    
-                    <h6>Input a number and the system will tell you how far off you are!</h6>
-                    <div class="input-control">
-                        <input type="number" id="guess-input" class="guess-input" placeholder="Type in your number here..."></input>
-                        <div class="error" id="error-styling"></div>
-                    </div>
-                    
-                    <button type="submit" class="btn btn-primary" id="submit-guess">Guess</button>
-                    
-
-                    <div class="history" id="guess-history">
-                        <h6>Your guess history:</h6>
-                        <p id="guess-history"></p>
-                    </div>
-                </div>
             </div>
             <!-- // Sidebar -->
 
             <div class="main">
-                <h1 class="newest-posts-title">Newest Posts</h1>
-                <div class="post">
-                    <img src="images/Ahri.jpg" alt="" class="post-image">
-                    <div class="post-preview">
-                        <h2><a href="/builds/ahri.html"></a>Ahri - the nine-tailed fox</h2>
-                        <i class="fa-regular fa-user"> Username</i>
-                        &nbsp;
-                        <i class="fa-regular fa-calendar"> Oct 30, 2024</i>
-                        <p class="preview-text">
-                            Ever wanted to get to know Ahri better? well then look no further...
-                        </p>
-                        <a href="/builds/ahri.html" class="btn read-more">Read more...</a>
+                <h1 class="newest-posts-title">HTML sitemap</h1>
+
+                <div class="sitemap-container">
+                    <div class="sitemap-links">
+                        <a href="https://127.0.0.1:5500/index.html">https://127.0.0.1:5500/index.html</a> <br>
+                        <a href="https://127.0.0.1:5500/posts.html">https://127.0.0.1:5500/posts.html</a> <br>
+                        <a href="https://127.0.0.1:5500/gallery.html">https://127.0.0.1:5500/gallery.html</a> <br>
+                        <a href="https://127.0.0.1:5500/contacts/about-us.html">https://127.0.0.1:5500/contacts/about-us.html</a> <br>
+                        <a href="https://127.0.0.1:5500/contacts/contact-us.html">https://127.0.0.1:5500/contacts/contact-us.html</a> <br>
+                        <a href="https://127.0.0.1:5500/account/login.html">https://127.0.0.1:5500/account/login.html</a> <br>
+                        <a href="https://127.0.0.1:5500/account/register.html">https://127.0.0.1:5500/account/register.html</a> <br>
+                        <a href="https://127.0.0.1:5500/builds/aatrox.html">https://127.0.0.1:5500/builds/aatrox.html</a> <br>
+                        <a href="https://127.0.0.1:5500/builds/ahri.html">https://127.0.0.1:5500/builds/ahri.html</a> <br>
+                        <a href="https://127.0.0.1:5500/builds/beginner-guide.html">https://127.0.0.1:5500/builds/beginner-guide.html</a> <br>
+                        <a href="https://127.0.0.1:5500/sitemap.html">https://127.0.0.1:5500/sitemap.html</a>
                     </div>
                 </div>
-
-                <div class="post">
-                    <img src="./images/Aatrox.jpg" alt="" class="post-image">
-                    <div class="post-preview">
-                        <h2><a href="/builds/aatrox.html"></a>Aatrox - the darkin blade</h2>
-                        <i class="fa-regular fa-user"> Username</i>
-                        &nbsp;
-                        <i class="fa-regular fa-calendar"> Oct 30, 2024</i>
-                        <p class="preview-text">
-                                Ever wanted to get to know Aatrox better? well then look no further...
-                        </p>
-                        <a href="/builds/aatrox.html" class="btn read-more">Read more...</a>
-                    </div>
-                </div>
-
                 <!-- Scroll to top -->
                 <button onclick="topFunction()" id="myBtn" title="Go to top">
                     <i id="scroll-arrow" class="fa fa-arrow-up" aria-hidden="true"></i>
                 </button>
-
             </div>
         </div>
         <!-- // Content -->
@@ -274,7 +201,6 @@
                     <a href="posts.html"><li>Posts</li></a>
                     <a href="gallery.html"><li>Gallery</li></a>
                     <a href="/contacts/about-us.html"><li>About us</li></a>
-                    <a href="sitemap.html"><li>Sitemap</li></a>
                 </ul>
             </div>
 

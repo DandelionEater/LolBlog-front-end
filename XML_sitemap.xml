@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://127.0.0.1:5500/index.html</loc>
+    </url>
+    <url>
+        <loc>https://127.0.0.1:5500/posts.html</loc>
+    </url>
+    <url>
+        <loc>https://127.0.0.1:5500/gallery.html</loc>
+    </url>
+    <url>
+        <loc>https://127.0.0.1:5500/contacts/contact-us.html</loc>
+    </url>
+    <url>
+        <loc>https://127.0.0.1:5500/contacts/about-us.html</loc>
+    </url>
+    <url>
+        <loc>https://127.0.0.1:5500/account/login.html</loc>
+    </url>
+    <url>
+        <loc>https://127.0.0.1:5500/account/register.html</loc>
+    </url>
+    <url>
+        <loc>https://127.0.0.1:5500/builds/aatrox.html</loc>
+    </url>
+    <url>
+        <loc>https://127.0.0.1:5500/builds/ahri.html</loc>
+    </url>
+    <url>
+        <loc>https://127.0.0.1:5500/builds/beginner-guide.html</loc>
+    </url>
+    <url>
+        <loc>https://127.0.0.1:5500/sitemap</loc>
+    </url>
+</urlset>

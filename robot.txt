@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /account
+Disallow: /contacts
+
+Allow: /builds
+
+Sitemap: https://localhost:5500/XML_sitemap.xml
