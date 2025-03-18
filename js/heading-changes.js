@@ -6,7 +6,7 @@ colorPicker.addEventListener('change', () => {
   });
 
   fontSize.addEventListener('change', () => {
-    updateHeadingsSize(fontSize.value + "px");
+    updateHeadingsSize(fontSize.value);
   });
 
 function updateHeadingsColor(color) {
